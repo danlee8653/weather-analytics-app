@@ -29,32 +29,6 @@ import {
   Calendar,
 } from "lucide-react";
 
-/**
- * Weather Analytics App – Single-file React frontend
- *
- * - No backend required. Uses Open-Meteo (no API key) + its free geocoding.
- * - Features:
- *   • City search with autocomplete (Open-Meteo Geocoding)
- *   • Favorites & Recent Searches (localStorage)
- *   • Metric/Imperial units
- *   • Current conditions summary cards
- *   • Hourly trend charts (temp, humidity, wind)
- *   • Daily outlook chart (min/max temp)
- *   • Rain probability bars
- *   • Sunrise/Sunset, UV (approx placeholder), Pressure (calc/placeholder)
- *   • Dark/Light theme toggle
- *   • Smooth UI via Tailwind + Framer Motion
- *
- * Styling assumptions:
- * - TailwindCSS available.
- * - Recharts, lucide-react, framer-motion available.
- *
- * Notes:
- * - Open-Meteo docs: https://open-meteo.com/en/docs
- * - This file is a complete, drop-in React component. Render <WeatherAnalyticsApp />.
- */
-
-// ---- Utilities --------------------------------------------------------------
 const LS_KEYS = {
   FAVORITES: "wa:favorites",
   RECENTS: "wa:recents",
