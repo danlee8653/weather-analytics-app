@@ -159,7 +159,7 @@ function TopBar({ theme, setTheme, unit, setUnit }) {
       <div className="flex items-center gap-2">
         <Cloud className="w-7 h-7" aria-hidden />
         <h1 className="text-2xl md:text-3xl font-semibold tracking-tight">
-          Weather Analytics
+          Weather Forecast
         </h1>
       </div>
       <div className="flex items-center gap-2">
